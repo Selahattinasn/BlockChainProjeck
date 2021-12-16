@@ -4,7 +4,8 @@
   "description": "Block-Chain Projeckt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Selahattinasn/BlockChainProjeck/issues"
   },
-  "homepage": "https://github.com/Selahattinasn/BlockChainProjeck#readme"
+  "homepage": "https://github.com/Selahattinasn/BlockChainProjeck#readme",
+  "devDependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.15"
+  }
 }
